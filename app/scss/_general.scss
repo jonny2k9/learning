@@ -1,13 +1,3 @@
-$white: #ffffff;
-$black: #000000;
-$grey: #787878;
-$primary: #7878ff;
-$secondary: #ff7878;
-$font-stack: Arial, Helvetica, sans-serif;
-$fifteen:15px;
-$padding:$fifteen $fifteen 0 $fifteen;
-$heading-size:2;
-
 html {
   box-sizing: border-box;
 }
@@ -23,36 +13,12 @@ body {
 	color:$black;
 }
 
-@mixin heading($fraction) {
-	font-size:percentage($heading-size * $fraction);
-	padding:$padding;
+div.container-fixed{
+	width:1200px;
+	margin:0 auto;
 }
 
-h1{
-	@include heading(1);
+div.container-fluid{
+	width:100%;
 }
 
-h2{
-	@include heading(4/5);
-}
-
-h3{
-	@include heading(3/4);
-}
-
-h4{
-	@include heading(2/3);
-}
-
-h5{
-	@include heading(1/2);
-}
-
-.font-primary{color:$primary;}
-.font-secondary{color:$secondary;}
-.font-white{color:$white;}
-.font-black{color:$black;}
-.bg-primary{background-color:$primary;}
-.bg-secondary{background-color:$secondary;}
-
-p{color:$grey;padding:$padding;}

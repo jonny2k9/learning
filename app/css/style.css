@@ -45,18 +45,6 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-html {
-  box-sizing: border-box; }
-
-*, *:before, *:after {
-  box-sizing: inherit; }
-
-body {
-  background-color: #ffffff;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 100%;
-  color: #000000; }
-
 h1 {
   font-size: 200%;
   padding: 15px 15px 0 15px; }
@@ -77,27 +65,28 @@ h5 {
   font-size: 100%;
   padding: 15px 15px 0 15px; }
 
-.font-primary {
-  color: #7878ff; }
-
-.font-secondary {
-  color: #ff7878; }
-
-.font-white {
-  color: #ffffff; }
-
-.font-black {
-  color: #000000; }
-
-.bg-primary {
-  background-color: #7878ff; }
-
-.bg-secondary {
-  background-color: #ff7878; }
-
 p {
   color: #787878;
   padding: 15px 15px 0 15px; }
+
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+body {
+  background-color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  color: #000000; }
+
+div.container-fixed {
+  width: 1200px;
+  margin: 0 auto; }
+
+div.container-fluid {
+  width: 100%; }
 
 div.row {
   width: 100%;

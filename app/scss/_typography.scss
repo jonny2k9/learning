@@ -1,0 +1,30 @@
+// Typography
+$font-stack: Arial, Helvetica, sans-serif;
+$heading-size:2;
+
+@mixin heading($fraction) {
+	font-size:percentage($heading-size * $fraction);
+	padding:$padding;
+}
+
+h1{
+	@include heading(1);
+}
+
+h2{
+	@include heading(4/5);
+}
+
+h3{
+	@include heading(3/4);
+}
+
+h4{
+	@include heading(2/3);
+}
+
+h5{
+	@include heading(1/2);
+}
+
+p{color:$grey;padding:$padding;}
