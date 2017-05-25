@@ -1,12 +1,7 @@
 // style.scss
+
 @import 'reset';
 
-body{
-	background-color:white;
-}
+@import 'general';
 
-
-
-p{
-	color:black;
-}
+@import 'row';
